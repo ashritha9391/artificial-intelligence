@@ -23,4 +23,12 @@ def solve8Queens():
     else:
         print("No solution exists.")
 solve8Queens()
-
+#output
+Q . . . . . . .
+. . . . Q . . .
+. . . . . . . Q
+. . . . . Q . .
+. . Q . . . . .
+. . . . . . Q .
+. Q . . . . . .
+. . . Q . . . .
