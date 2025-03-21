@@ -17,4 +17,5 @@ if __name__ == "__main__":
     if (sol:=bfs()): [print(f"Step {i}: (M={s.m}, C={s.c}, Boat={'Left' if s.b else 'Right'})") for i, s in enumerate(sol)], print("Solution found!")
     else: print("No solution found.")
 
-
+#output
+[(3, 3, 2), (3, 1, 0), (1, 1, 1), (0, 0, 0)]
